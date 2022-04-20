@@ -12,6 +12,7 @@ chrome_driver_path = "C:\Program Files (x86)\chromedriver.exe"
 
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
+#Channel Video Page Link Here 
 driver.get('https://www.youtube.com/c/CHANNEL_NAME/videos')
 
 videos = driver.find_elements(By.CSS_SELECTOR, '#video-title')
